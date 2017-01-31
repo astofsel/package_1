@@ -1,0 +1,3 @@
+six
+
+-e git+https://github.com/astofsel/social-core.git#egg=social-core-FORKED
