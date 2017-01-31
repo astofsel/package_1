@@ -1,3 +1,1 @@
 six
-
--e git+https://github.com/astofsel/package_2.git#egg=social-core
