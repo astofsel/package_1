@@ -82,7 +82,7 @@ class DjangoUserMixin(UserMixin):
                 user = cls.user_model().objects.get(*args, **kwargs)
             except cls.user_model().DoesNotExist:
                 six.reraise(*exc_info)
-        return user
+
 
     @classmethod
     def get_user(cls, pk=None, **kwargs):
